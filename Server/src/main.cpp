@@ -3,7 +3,6 @@
  
 void setup() {
    Application::start();
-   
 }
 
 void loop() {

@@ -8,7 +8,9 @@
 #include <AsyncWebSocket.h>
 #include <ESPAsyncWebServer.h>
 
-namespace server
+//base server - the server that will handle all the incoming 
+//and outcoming requests in home network. 
+namespace bserver 
 {
    void begin();
    void run();
