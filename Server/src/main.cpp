@@ -1,11 +1,11 @@
 #include <Arduino.h>
-#include <Update.h>
-
+#include "Application.h"
  
 void setup() {
+   Application::start();
    
 }
 
 void loop() {
- 
+   Application::run();
 }
